@@ -1,0 +1,9 @@
+Folder:          /Users/kpicca/Desktop/wemob-pipeline/tests
+Recursive:       True
+Files scanned:   24
+Lines scanned:   5182979
+Regex:           (?<![0-9A-Fa-f])BBE000[0-9]{18}(?![0-9A-Fa-f])
+Unique BBE tags: 6490
+Outputs:
+  - /Users/kpicca/Desktop/wemob-pipeline/data/processed/unique_tags.txt
+  - /Users/kpicca/Desktop/wemob-pipeline/data/processed/tag_counts.csv
